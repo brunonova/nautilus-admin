@@ -1,9 +1,6 @@
-import os
-import urllib
-
+import os, urllib, subprocess
 from gi.repository import Nautilus, GObject, GConf
 
-#TODO: don't fail on paths with spaces
 #TODO: show a warning on first use
 #TODO: localization
 
@@ -13,7 +10,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 
 	def nautilus_run(self, menu, url):
 		filename = urllib.unquote(url.get_uri()[7:])
-		os.system("@CMAKE_INSTALL_PREFIX@/bin/nautilus-pkexec {} &".format(filename))
+		subprocess.Popen(["@CMAKE_INSTALL_PREFIX@/bin/nautilus-pkexec", filename])
 
 	def get_file_items(self, window, files):
 		if(len(files) == 1):
