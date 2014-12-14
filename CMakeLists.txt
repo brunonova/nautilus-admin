@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 2.6)
 project(NautilusAdmin NONE)
+find_package(Gettext REQUIRED)
 
 configure_file(extension/nautilus-admin.py extension/nautilus-admin.py)
+
+gettext_create_translations(po/nautilus-admin.pot ALL po/pt.po)
 
 install(FILES polkit/org.freedesktop.nautilus-admin.policy DESTINATION /usr/share/polkit-1/actions)
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/extension/nautilus-admin.py" DESTINATION /usr/share/nautilus-python/extensions)
