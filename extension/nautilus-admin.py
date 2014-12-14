@@ -22,4 +22,9 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 				return
 			item = Nautilus.MenuItem(name='NautilusAdmin::Nautilus', label='Open as Root', tip='Open as Root user')
 			item.connect('activate', self.nautilus_run, file)
-			return item,
+			return (item, )
+
+	def get_background_items(self, window, file):
+		item = Nautilus.MenuItem(name='NautilusAdmin::Nautilus', label='Open as Root', tip='Open as Root user')
+		item.connect('activate', self.nautilus_run, file)
+		return (item, )
