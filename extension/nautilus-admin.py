@@ -1,14 +1,19 @@
 import os, subprocess
 from gi.repository import Nautilus, GObject, GConf
+from gettext import gettext, locale, bindtextdomain, textdomain
 
 #TODO: show a warning on first use
-#TODO: localization
 
 ROOT_UID=0
 
 class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 	def __init__(self):
 		self.client = GConf.Client.get_default()
+
+	def setup_gettext(self):
+		locale.setlocale(locale.LC_ALL, '')
+		bindtextdomain('nautilus-admin', '@CMAKE_INSTALL_PREFIX@/share/locale')
+		textdomain('nautilus-admin')
 
 	def nautilus_run(self, menu, file):
 		uri = file.get_uri()
@@ -22,9 +27,10 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		file = files[0]
 		if not file.is_directory() or file.get_uri_scheme() != 'file':
 			return
+		self.setup_gettext();
 		item = Nautilus.MenuItem(name='NautilusAdmin::Nautilus',
-		                         label='Open as Administrator',
-		                         tip='Open this folder as administrator')
+		                         label=gettext('Open as Administrator'),
+		                         tip=gettext('Open this folder as administrator'))
 		item.connect('activate', self.nautilus_run, file)
 		return (item, )
 
@@ -33,8 +39,9 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 			return
 		if not file.is_directory() or file.get_uri_scheme() != 'file':
 			return
+		self.setup_gettext();
 		item = Nautilus.MenuItem(name='NautilusAdmin::Nautilus',
-		                         label='Open as Administrator',
-		                         tip='Open this folder as administrator')
+		                         label=gettext('Open as Administrator'),
+		                         tip=gettext('Open this folder as administrator'))
 		item.connect('activate', self.nautilus_run, file)
 		return (item, )
