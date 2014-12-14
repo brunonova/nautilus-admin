@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+  <vendor>Nautilus Admin</vendor>
+  <vendor_url>https://bitbucket.org/brunonova/nautilus-admin</vendor_url>
+
+  <action id="org.freedesktop.pkexec.nautilus">
+    <description>Run Nautilus as Root</description>
+    <description xml:lang="pt">Executar o Nautilus como Root</description>
+    <message>Authentication is required to run the File Manager as </message>
+    <message xml:lang="pt">Autenticação é exigida para executar o Gestor de Ficheiros</message>
+    <icon_name>system-file-manager</icon_name>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/nautilus</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>
