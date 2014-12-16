@@ -8,7 +8,6 @@ gettext_create_translations(po/nautilus-admin.pot ALL po/pt.po)
 
 install(FILES polkit/org.freedesktop.nautilus-admin.policy DESTINATION /usr/share/polkit-1/actions)
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/extension/nautilus-admin.py" DESTINATION /usr/share/nautilus-python/extensions)
-install(PROGRAMS bin/nautilus-pkexec DESTINATION bin)
 
 # Uninstall target
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/cmake/cmake_uninstall.cmake.in"
