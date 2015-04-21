@@ -47,7 +47,10 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 
 	def _setup_gettext(self):
 		"""Initializes gettext to localize strings."""
-		locale.setlocale(locale.LC_ALL, "")
+		try: # prevent a possible exception
+			locale.setlocale(locale.LC_ALL, "")
+		except:
+			pass
 		bindtextdomain("nautilus-admin", "@CMAKE_INSTALL_PREFIX@/share/locale")
 		textdomain("nautilus-admin")
 
