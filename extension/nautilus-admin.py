@@ -22,7 +22,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		items = []
 		self._setup_gettext();
 		if file.is_directory() and file.get_uri_scheme() == "file":
-			items += [self._create_open_as_admin(file)]
+			items += [self._create_nautilus_item(file)]
 
 		return items
 
@@ -37,9 +37,10 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		items = []
 		self._setup_gettext();
 		if file.is_directory() and file.get_uri_scheme() == "file":
-			items += [self._create_open_as_admin(file)]
+			items += [self._create_nautilus_item(file)]
 
 		return items
+
 
 	def _setup_gettext(self):
 		"""Initializes gettext to localize strings."""
@@ -47,7 +48,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		bindtextdomain("nautilus-admin", "@CMAKE_INSTALL_PREFIX@/share/locale")
 		textdomain("nautilus-admin")
 
-	def _create_open_as_admin(self, file):
+	def _create_nautilus_item(self, file):
 		"""Creates the 'Open as Administrator' menu item."""
 		item = Nautilus.MenuItem(name="NautilusAdmin::Nautilus",
 		                         label=gettext("Open as Administrator"),
