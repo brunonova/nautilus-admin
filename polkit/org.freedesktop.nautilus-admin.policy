@@ -10,7 +10,7 @@
     <description>Run Nautilus as Root</description>
     <description xml:lang="pt">Executar o Nautilus como Root</description>
     <message>Authentication is required to run the File Manager as Administrator</message>
-    <message xml:lang="pt">Autenticação é exigida para executar o Gestor de Ficheiros como Administrador</message>
+    <message xml:lang="pt">Autenticação é necessária para executar o Gestor de Ficheiros como Administrador</message>
     <icon_name>system-file-manager</icon_name>
     <defaults>
       <allow_any>auth_admin</allow_any>
