@@ -1,5 +1,5 @@
 import os, subprocess
-from gi.repository import Nautilus, GObject, GConf, Gtk, GLib
+from gi.repository import Nautilus, GObject
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
