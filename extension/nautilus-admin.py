@@ -21,8 +21,11 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		# Add the menu items
 		items = []
 		self._setup_gettext();
-		if file.is_directory() and file.get_uri_scheme() == "file":
-			items += [self._create_nautilus_item(file)]
+		if file.get_uri_scheme() == "file": # must be a local file/directory
+			if file.is_directory():
+				items += [self._create_nautilus_item(file)]
+			else:
+				items += [self._create_gedit_item(file)]
 
 		return items
 
@@ -56,8 +59,21 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		item.connect("activate", self._nautilus_run, file)
 		return item
 
+	def _create_gedit_item(self, file):
+		"""Creates the 'Open in the Text Editor as Administrator' menu item."""
+		item = Nautilus.MenuItem(name="NautilusAdmin::Gedit",
+		                         label=gettext("Open in the Text Editor as Administrator"),
+		                         tip=gettext("Open this file in the text editor with root privileges"))
+		item.connect("activate", self._gedit_run, file)
+		return item
+
 
 	def _nautilus_run(self, menu, file):
 		"""'Open as Administrator' menu item callback."""
 		uri = file.get_uri()
 		subprocess.Popen(["/usr/bin/pkexec", "/usr/bin/nautilus", "--no-desktop", uri])
+
+	def _gedit_run(self, menu, file):
+		"""'Open in the Text Editor as Administrator' menu item callback."""
+		uri = file.get_uri()
+		subprocess.Popen(["/usr/bin/pkexec", "/usr/bin/gedit", uri])

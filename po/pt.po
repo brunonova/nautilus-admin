@@ -1,13 +1,13 @@
 # Portuguese translations for nautilus-admin package.
-# Copyright (C) 2014 THE nautilus-admin'S COPYRIGHT HOLDER
+# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
 # This file is distributed under the same license as the nautilus-admin package.
-# Bruno Nova <brunomb.nova@gmail.com>, 2014.
+# Bruno Nova <brunomb.nova@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-29 20:01+0000\n"
+"POT-Creation-Date: 2015-04-21 17:44+0100\n"
 "PO-Revision-Date: 2014-12-14 18:24+0000\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
@@ -17,12 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: /home/bruno/src/nautilus-admin/extension/nautilus-admin.py:27
-#: /home/bruno/src/nautilus-admin/extension/nautilus-admin.py:44
+#: extension/nautilus-admin.py:57
 msgid "Open as Administrator"
-msgstr "Abrir como Administrator"
+msgstr "Abrir como Administrador"
 
-#: /home/bruno/src/nautilus-admin/extension/nautilus-admin.py:28
-#: /home/bruno/src/nautilus-admin/extension/nautilus-admin.py:45
+#: extension/nautilus-admin.py:65
+msgid "Open in the Text Editor as Administrator"
+msgstr "Abrir no Editor de Texto como Administrador"
+
+#: extension/nautilus-admin.py:66
+msgid "Open this file in the text editor with root privileges"
+msgstr "Abrir este ficheiro no editor de texto com privilégios de root"
+
+#: extension/nautilus-admin.py:58
 msgid "Open this folder with root privileges"
 msgstr "Abrir esta pasta com privilégios de root"
