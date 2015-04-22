@@ -3,6 +3,9 @@ from gi.repository import Nautilus, GObject
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
+PKEXEC_PATH="/usr/bin/pkexec"
+NAUTILUS_PATH="/usr/bin/nautilus"
+GEDIT_PATH="/usr/bin/gedit"
 
 class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 	"""Simple Nautilus extension that adds some administrative (root) actions to
@@ -23,9 +26,11 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		self._setup_gettext();
 		if file.get_uri_scheme() == "file": # must be a local file/directory
 			if file.is_directory():
-				items += [self._create_nautilus_item(file)]
+				if os.path.exists(NAUTILUS_PATH):
+					items += [self._create_nautilus_item(file)]
 			else:
-				items += [self._create_gedit_item(file)]
+				if os.path.exists(GEDIT_PATH):
+					items += [self._create_gedit_item(file)]
 
 		return items
 
@@ -40,7 +45,8 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		items = []
 		self._setup_gettext();
 		if file.is_directory() and file.get_uri_scheme() == "file":
-			items += [self._create_nautilus_item(file)]
+			if os.path.exists(NAUTILUS_PATH):
+				items += [self._create_nautilus_item(file)]
 
 		return items
 
@@ -74,9 +80,9 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 	def _nautilus_run(self, menu, file):
 		"""'Open as Administrator' menu item callback."""
 		uri = file.get_uri()
-		subprocess.Popen(["/usr/bin/pkexec", "/usr/bin/nautilus", "--no-desktop", uri])
+		subprocess.Popen([PKEXEC_PATH, NAUTILUS_PATH, "--no-desktop", uri])
 
 	def _gedit_run(self, menu, file):
 		"""'Open in the Text Editor as Administrator' menu item callback."""
 		uri = file.get_uri()
-		subprocess.Popen(["/usr/bin/pkexec", "/usr/bin/gedit", uri])
+		subprocess.Popen([PKEXEC_PATH, GEDIT_PATH, uri])
