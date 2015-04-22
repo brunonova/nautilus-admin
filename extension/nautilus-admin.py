@@ -3,9 +3,9 @@ from gi.repository import Nautilus, GObject
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
-PKEXEC_PATH="/usr/bin/pkexec"
-NAUTILUS_PATH="/usr/bin/nautilus"
-GEDIT_PATH="/usr/bin/gedit"
+PKEXEC_PATH="@PKEXEC_PATH@"
+NAUTILUS_PATH="@NAUTILUS_PATH@"
+GEDIT_PATH="@GEDIT_PATH@"
 
 class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 	"""Simple Nautilus extension that adds some administrative (root) actions to
