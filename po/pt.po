@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-admin 0.0.1\n"
+"Project-Id-Version: nautilus-admin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-28 17:53+0100\n"
-"PO-Revision-Date: 2014-12-14 18:24+0000\n"
+"PO-Revision-Date: 2015-04-28 18:43+0100\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
 "Language: pt\n"
