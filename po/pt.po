@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-30 17:32+0100\n"
-"PO-Revision-Date: 2015-04-30 17:34+0100\n"
+"POT-Creation-Date: 2015-05-08 15:06+0100\n"
+"PO-Revision-Date: 2015-05-08 15:07+0100\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension/nautilus-admin.py:94
+#: extension/nautilus-admin.py:90
 msgid "Edit as Administrator"
 msgstr "Editar como Administrador"
 
-#: extension/nautilus-admin.py:86
+#: extension/nautilus-admin.py:82
 msgid "Open as Administrator"
 msgstr "Abrir como Administrador"
 
-#: extension/nautilus-admin.py:95
+#: extension/nautilus-admin.py:91
 msgid "Open this file in the text editor with root privileges"
 msgstr "Abrir este ficheiro no editor de texto com privilégios de root"
 
-#: extension/nautilus-admin.py:87
+#: extension/nautilus-admin.py:83
 msgid "Open this folder with root privileges"
 msgstr "Abrir esta pasta com privilégios de root"
