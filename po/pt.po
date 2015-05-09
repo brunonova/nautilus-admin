@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-08 15:06+0100\n"
-"PO-Revision-Date: 2015-05-08 15:07+0100\n"
+"POT-Creation-Date: 2015-05-09 11:43+0100\n"
+"PO-Revision-Date: 2015-05-09 11:44+0100\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: extension/nautilus-admin.py:90
-msgid "Edit as Administrator"
-msgstr "Editar como Administrador"
+msgid "Edit as A_dministrator"
+msgstr "Editar como A_dministrador"
 
 #: extension/nautilus-admin.py:82
-msgid "Open as Administrator"
-msgstr "Abrir como Administrador"
+msgid "Open as A_dministrator"
+msgstr "Abrir como A_dministrador"
 
 #: extension/nautilus-admin.py:91
 msgid "Open this file in the text editor with root privileges"
