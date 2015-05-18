@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os, subprocess
-from gi.repository import Nautilus, GObject
+from gi.repository import Nautilus, GObject, GConf, Gtk, GLib
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
@@ -92,13 +92,49 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		item.connect("activate", self._gedit_run, file)
 		return item
 
+	def _show_warning_dialog(self):
+		"""Shows a warning dialog it this is the first time the extension is
+		used, and returns True if the user has pressed OK."""
+		# Check if this is the first time the extension is used
+		conf_dir = GLib.get_user_config_dir() # get "~/.config" path
+		conf_file = os.path.join(conf_dir, ".nautilus-admin-warn-shown")
+		if os.path.exists(conf_file):
+			return True
+		else:
+			# Show the warning dialog
+			self._setup_gettext();
+			dialog = Gtk.MessageDialog(None, 0, Gtk.MessageType.WARNING,
+			                           Gtk.ButtonsType.OK_CANCEL,
+			                           gettext("CAUTION!"))
+			msg = gettext("Running the File Manager or the Text Editor with Administrator "
+			              "privileges <b>is dangerous</b>! <b>You can easily destroy your "
+			              "system if you are not careful!</b>\n"
+			              "Proceed only if you know what you are doing and understand the risks.")
+			dialog.format_secondary_markup(msg)
+			response = dialog.run()
+			dialog.destroy()
+
+			if response == Gtk.ResponseType.OK:
+				# Mark the dialog as shown
+				try:
+					if not os.path.isdir(conf_dir):
+						os.makedirs(conf_dir)
+					open(conf_file, "w").close() # create an empty file
+				except:
+					pass
+				return True
+			else:
+				return False
+
 
 	def _nautilus_run(self, menu, file):
 		"""'Open as Administrator' menu item callback."""
-		uri = file.get_uri()
-		subprocess.Popen([PKEXEC_PATH, NAUTILUS_PATH, "--no-desktop", uri])
+		if self._show_warning_dialog():
+			uri = file.get_uri()
+			subprocess.Popen([PKEXEC_PATH, NAUTILUS_PATH, "--no-desktop", uri])
 
 	def _gedit_run(self, menu, file):
 		"""'Edit as Administrator' menu item callback."""
-		uri = file.get_uri()
-		subprocess.Popen([PKEXEC_PATH, GEDIT_PATH, uri])
+		if self._show_warning_dialog():
+			uri = file.get_uri()
+			subprocess.Popen([PKEXEC_PATH, GEDIT_PATH, uri])

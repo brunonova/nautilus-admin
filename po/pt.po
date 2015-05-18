@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-09 11:44+0100\n"
-"PO-Revision-Date: 2015-05-09 11:45+0100\n"
+"POT-Creation-Date: 2015-05-18 20:51+0100\n"
+"PO-Revision-Date: 2015-05-18 20:52+0100\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension/nautilus-admin.py:108
+msgid "CAUTION!"
+msgstr "CUIDADO!"
 
 #: extension/nautilus-admin.py:90
 msgid "Edit as A_dministrator"
@@ -32,3 +36,15 @@ msgstr "Abrir este ficheiro no editor de texto com privilégios de root"
 #: extension/nautilus-admin.py:83
 msgid "Open this folder with root privileges"
 msgstr "Abrir esta pasta com privilégios de root"
+
+#: extension/nautilus-admin.py:109
+msgid ""
+"Running the File Manager or the Text Editor with Administrator privileges "
+"<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
+"careful!</b>\n"
+"Proceed only if you know what you are doing and understand the risks."
+msgstr ""
+"Executar o Gestor de Ficheiros ou o Editor de Texto com privilégios de "
+"Administrador <b>é perigoso</b>! <b>Pode destruir o seu sistema facilmente "
+"se não tiver cuidado!</b>\n"
+"Prossiga apenas se souber o que está a fazer e entender os riscos."
