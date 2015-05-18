@@ -40,6 +40,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		# Add the menu items
 		items = []
 		self._setup_gettext();
+		self.window = window
 		if file.get_uri_scheme() == "file": # must be a local file/directory
 			if file.is_directory():
 				if os.path.exists(NAUTILUS_PATH):
@@ -60,6 +61,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		# Add the menu items
 		items = []
 		self._setup_gettext();
+		self.window = window
 		if file.is_directory() and file.get_uri_scheme() == "file":
 			if os.path.exists(NAUTILUS_PATH):
 				items += [self._create_nautilus_item(file)]
@@ -103,7 +105,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		else:
 			# Show the warning dialog
 			self._setup_gettext();
-			dialog = Gtk.MessageDialog(None, 0, Gtk.MessageType.WARNING,
+			dialog = Gtk.MessageDialog(self.window, 0, Gtk.MessageType.WARNING,
 			                           Gtk.ButtonsType.OK_CANCEL,
 			                           gettext("CAUTION!"))
 			msg = gettext("Running the File Manager or the Text Editor with Administrator "
