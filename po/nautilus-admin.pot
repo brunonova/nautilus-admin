@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-09 11:44+0100\n"
+"POT-Creation-Date: 2015-05-18 20:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,4 +31,16 @@ msgstr ""
 
 #: extension/nautilus-admin.py:91
 msgid "Open this file in the text editor with root privileges"
+msgstr ""
+
+#: extension/nautilus-admin.py:108
+msgid "CAUTION!"
+msgstr ""
+
+#: extension/nautilus-admin.py:109
+msgid ""
+"Running the File Manager or the Text Editor with Administrator privileges "
+"<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
+"careful!</b>\n"
+"Proceed only if you know what you are doing and understand the risks."
 msgstr ""
