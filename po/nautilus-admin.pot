@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-18 20:56+0100\n"
+"POT-Creation-Date: 2015-05-18 21:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,27 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension/nautilus-admin.py:82
+#: extension/nautilus-admin.py:84
 msgid "Open as A_dministrator"
 msgstr ""
 
-#: extension/nautilus-admin.py:83
+#: extension/nautilus-admin.py:85
 msgid "Open this folder with root privileges"
 msgstr ""
 
-#: extension/nautilus-admin.py:90
+#: extension/nautilus-admin.py:92
 msgid "Edit as A_dministrator"
 msgstr ""
 
-#: extension/nautilus-admin.py:91
+#: extension/nautilus-admin.py:93
 msgid "Open this file in the text editor with root privileges"
 msgstr ""
 
-#: extension/nautilus-admin.py:108
+#: extension/nautilus-admin.py:110
 msgid "CAUTION!"
 msgstr ""
 
-#: extension/nautilus-admin.py:109
+#: extension/nautilus-admin.py:111
 msgid ""
 "Running the File Manager or the Text Editor with Administrator privileges "
 "<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
