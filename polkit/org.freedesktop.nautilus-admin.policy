@@ -4,7 +4,7 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 	<vendor>Nautilus Admin</vendor>
-	<vendor_url>https://bitbucket.org/brunonova/nautilus-admin</vendor_url>
+	<vendor_url>https://github.com/brunonova/nautilus-admin</vendor_url>
 
 	<action id="org.freedesktop.pkexec.nautilus">
 		<description>Run Nautilus as Root</description>
