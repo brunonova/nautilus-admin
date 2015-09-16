@@ -24,7 +24,7 @@ Find bugs that need to be fixed in the [issue tracker][issues].
 
 The Python code was indented using tabs.
 
-If you add any translatable string to the extension, pleas run the
+If you add any translatable string to the extension, please run the
 "generate-pot-file.sh" script to update the translation template.
 
 
