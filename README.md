@@ -1,6 +1,8 @@
 Nautilus Admin
 ==============
 
+[![GPLv3 license](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+
 Nautilus Admin is a simple Python extension for the Nautilus file manager that
 adds some administrative actions to the right-click menu:
 
