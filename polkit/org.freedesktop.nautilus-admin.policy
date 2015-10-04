@@ -9,8 +9,10 @@
 	<action id="org.freedesktop.pkexec.nautilus">
 		<description>Run Nautilus as Root</description>
 		<description xml:lang="pt">Executar o Nautilus como Root</description>
+	  	<description xml:lang="fr">Lancez Nautilus en tant qu'administrateur</description>
 		<message>Authentication is required to run the File Manager as Administrator</message>
 		<message xml:lang="pt">Autenticação é necessária para executar o Gestor de Ficheiros como Administrador</message>
+	  	<message xml:lang="fr">L'authentification est requise pour lancer le gestionnaire de fichiers en tant qu'administrateur</message>
 		<icon_name>system-file-manager</icon_name>
 		<defaults>
 			<allow_any>auth_admin</allow_any>
@@ -24,8 +26,10 @@
 	<action id="org.freedesktop.pkexec.gedit">
 		<description>Open Gedit as Root</description>
 		<description xml:lang="pt">Abrir Gedit como Root</description>
+	  	<description xml:lang="fr">Ouvrir Gedit en tant qu'administrateur</description>
 		<message>Authentication is required to run the Text Editor as Administrator</message>
 		<message xml:lang="pt">Autenticação é necessária para executar o Editor de Texto como Administrador</message>
+	  	<message xml:lang="fr">L'authentification est requise pour lancer l'éditeur de texte en tant qu'administrateur</message>
 		<icon_name>accessories-text-editor</icon_name>
 		<defaults>
 			<allow_any>auth_admin</allow_any>
