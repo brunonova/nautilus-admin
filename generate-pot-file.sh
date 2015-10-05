@@ -3,5 +3,10 @@
 FILEPATH="$(readlink -f "$0")"
 DIR="$(dirname "$FILEPATH")"
 cd "$DIR"
-xgettext --package-name=nautilus-admin --package-version=0.1.3 -cTRANSLATORS \
-         "extension/nautilus-admin.py" -o "po/nautilus-admin.pot"
+xgettext --package-name=nautilus-admin \
+         --package-version=0.1.3 \
+         --copyright-holder='Bruno Nova <brunomb.nova@gmail.com>' \
+         --msgid-bugs-address='https://github.com/brunonova/nautilus-admin/issues' \
+         -cTRANSLATORS \
+         -o "po/nautilus-admin.pot" \
+         "extension/nautilus-admin.py"
