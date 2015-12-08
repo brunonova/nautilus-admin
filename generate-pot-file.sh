@@ -8,5 +8,5 @@ xgettext --package-name=nautilus-admin \
          --copyright-holder='Bruno Nova <brunomb.nova@gmail.com>' \
          --msgid-bugs-address='https://github.com/brunonova/nautilus-admin/issues' \
          -cTRANSLATORS \
-         -o "po/nautilus-admin.pot" \
+         -s -o "po/nautilus-admin.pot" \
          "extension/nautilus-admin.py"
