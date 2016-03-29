@@ -1,0 +1,47 @@
+# Spanish translation for nautilus-admin package
+# Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com>
+# This file is distributed under the same license as the nautilus-admin package.
+# David López <david.lopez@upct.es>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-admin 0.1.5\n"
+"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
+"POT-Creation-Date: 2015-12-08 13:11+0000\n"
+"PO-Revision-Date: 2016-03-29 10:46+0100\n"
+"Last-Translator: David López <david.lopez@upct.es>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension/nautilus-admin.py:110
+msgid "CAUTION!"
+msgstr "¡ADVERTENCIA!"
+
+#: extension/nautilus-admin.py:92
+msgid "Edit as A_dministrator"
+msgstr "Editar como A_dministrador"
+
+#: extension/nautilus-admin.py:84
+msgid "Open as A_dministrator"
+msgstr "Abrir como A_dministrador"
+
+#: extension/nautilus-admin.py:93
+msgid "Open this file in the text editor with root privileges"
+msgstr "Editar este archivo con privilegios de administrador"
+
+#: extension/nautilus-admin.py:85
+msgid "Open this folder with root privileges"
+msgstr "Abrir esta carpeta con privilegios de administrador"
+
+#: extension/nautilus-admin.py:111
+msgid ""
+"Running the File Manager or the Text Editor with Administrator privileges "
+"<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
+"careful!</b>\n"
+"Proceed only if you know what you are doing and understand the risks."
+msgstr "Usar con privilegios de administrador el Gestor de Archivos o el Editor de Texto "
+"<b>es peligroso.</b> <b>Podría destruir su sistema si no actúa con cuidado.</b>\n"
+"Úselo solo si sabe lo que está haciendo y comprende los riesgos."
