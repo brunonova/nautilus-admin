@@ -91,7 +91,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		return item
 
 	def _create_exec_item(self, file):
-		"""Creates the 'Edit as Administrator' menu item."""
+		"""Creates the 'Run as Administrator' menu item."""
 		item = Nautilus.MenuItem(name="NautilusAdmin::ExecAdmin",
 		                         label=gettext("Run as A_dministrator"),
 		                         tip=gettext("Run this file with root privileges"))
@@ -148,6 +148,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 			subprocess.Popen([PKEXEC_PATH, NAUTILUS_PATH, "--no-desktop", uri])
 
 	def _is_executable(self, file):
+		"""Returns whether the current user can execute the given file."""
 		try:		
 			uri = file.get_uri()
 			p = urlparse.urlparse(uri)
