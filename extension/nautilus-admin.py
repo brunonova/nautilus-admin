@@ -1,5 +1,5 @@
 # Nautilus Admin - Extension for Nautilus to do administrative operations
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015-2016 Bruno Nova <brunomb.nova@gmail.com>
 #               2016 frmdstryr <frmdstryr@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -20,10 +20,10 @@ from gi.repository import Nautilus, GObject, GConf, Gtk, GLib
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
-PKEXEC_PATH="/usr/bin/pkexec"
-NAUTILUS_PATH="/usr/bin/nautilus"
-GEDIT_PATH="/usr/bin/gedit"
-TERMINAL_PATH="/usr/bin/gnome-terminal"
+PKEXEC_PATH="@PKEXEC_PATH@"
+NAUTILUS_PATH="@NAUTILUS_PATH@"
+GEDIT_PATH="@GEDIT_PATH@"
+TERMINAL_PATH="@TERMINAL_PATH@"
 
 class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 	"""Simple Nautilus extension that adds some administrative (root) actions to
