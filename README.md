@@ -16,7 +16,7 @@ adds some administrative actions to the right-click menu:
 
 ## WARNING!
 
-Running a File Manager, a Text Editor or an executable with Administrator
+Running the File Manager, the Text Editor or an executable with Administrator
 privileges **is dangerous**!
 **You can easily destroy your system if you are not careful!**
 **Think twice** before doing so, especially when running untrusted executables
