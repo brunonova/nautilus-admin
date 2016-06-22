@@ -58,9 +58,9 @@
 	
 	<action id="org.freedesktop.pkexec.gnometerminal">
         <description>Run as Root</description>
-        <description xml:lang="pt">Abrir Gedit como Root</description>
+        <description xml:lang="pt">Executar como Root</description>
         <message>Authentication is required to run as Administrator</message>
-        <message xml:lang="pt">Autenticação é necessária para executar o Editor de Texto como Administrador</message>
+        <message xml:lang="pt">Autenticação é necessária para executar como Administrador</message>
         <icon_name>utilities-terminal</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
