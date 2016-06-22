@@ -6,6 +6,7 @@ find_package(Gettext REQUIRED)
 set(PKEXEC_PATH "/usr/bin/pkexec" CACHE FILEPATH "pkexec program path.")
 set(NAUTILUS_PATH "/usr/bin/nautilus" CACHE FILEPATH "nautilus program path.")
 set(GEDIT_PATH "/usr/bin/gedit" CACHE FILEPATH "gedit program path.")
+set(TERMINAL_PATH "/usr/bin/gnome-terminal" CACHE FILEPATH "gnome-terminal program path.")
 
 # Configure files
 configure_file(extension/nautilus-admin.py
