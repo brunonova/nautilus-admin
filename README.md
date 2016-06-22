@@ -19,7 +19,7 @@ adds some administrative actions to the right-click menu:
 Running the File Manager, the Text Editor or an executable with Administrator
 privileges **is dangerous**!
 **You can easily destroy your system if you are not careful!**
-**Think twice** before doing so, especially when running untrusted executables
+**Think twice** before doing so, especially before running untrusted executables
 downloaded from the Internet.
 **They can contain malware**, which can do
 **irreversible damage to your system** when given Administrator privileges!
