@@ -1,13 +1,13 @@
 # Russian translations for nautilus-admin package.
-# Copyright (C) 2015-2016 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
 # This file is distributed under the same license as the nautilus-admin package.
 # Maksim Krapiuka <metalomaniax@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-admin 0.2.0\n"
+"Project-Id-Version: nautilus-admin 0.1.5\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
-"POT-Creation-Date: 2016-06-22 22:47+0100\n"
+"POT-Creation-Date: 2015-12-08 13:11+0000\n"
 "PO-Revision-Date: 2015-12-01 13:54+0300\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -16,46 +16,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension/nautilus-admin.py:122
+#: extension/nautilus-admin.py:110
 msgid "CAUTION!"
 msgstr "ОСТОРОЖНО!"
 
-#: extension/nautilus-admin.py:104
+#: extension/nautilus-admin.py:92
 msgid "Edit as A_dministrator"
 msgstr "Редактировать как А_дминистратор"
 
-#: extension/nautilus-admin.py:88
+#: extension/nautilus-admin.py:84
 msgid "Open as A_dministrator"
 msgstr "Открыть как А_дминистратор"
 
-#: extension/nautilus-admin.py:105
+#: extension/nautilus-admin.py:93
 msgid "Open this file in the text editor with root privileges"
 msgstr "Открыть файл в текстовом редакторе с root привелегиями"
 
-#: extension/nautilus-admin.py:89
+#: extension/nautilus-admin.py:85
 msgid "Open this folder with root privileges"
 msgstr "Открыть папку с root привелегиями"
 
-#: extension/nautilus-admin.py:96
-#, fuzzy
-msgid "Run as A_dministrator"
-msgstr "Открыть как А_дминистратор"
-
-#: extension/nautilus-admin.py:97
-#, fuzzy
-msgid "Run this file with root privileges"
-msgstr "Открыть папку с root привелегиями"
-
-#: extension/nautilus-admin.py:123
-#, fuzzy
+#: extension/nautilus-admin.py:111
 msgid ""
-"Running the File Manager, the Text Editor or an executable with "
-"Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
-"system if you are not careful!</b>\n"
-"<b>Think twice</b> before doing so, especially before running untrusted "
-"executables downloaded from the Internet. <b>They can contain malware</b>, "
-"which can do <b>irreversible damage to your system</b> when given "
-"Administrator privileges!\n"
+"Running the File Manager or the Text Editor with Administrator privileges "
+"<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
+"careful!</b>\n"
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
 "Использование Файлового Менеджера или Текстового Редактора с правами "

@@ -1,13 +1,13 @@
 # Italian translations for nautilus-admin package.
-# Copyright (C) 2015-2016 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
 # This file is distributed under the same license as the nautilus-admin package.
 # Stefano Capitani <stefano@manjaro.org>, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-admin 0.2.0\n"
+"Project-Id-Version: nautilus-admin 0.1.5\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
-"POT-Creation-Date: 2016-06-22 22:47+0100\n"
+"POT-Creation-Date: 2016-06-01 20:00+0000\n"
 "PO-Revision-Date: 2016-06-01 20:00+0200\n"
 "Last-Translator: Stefano Capitani <stefano@manjaro.org>\n"
 "Language-Team: \n"
@@ -18,49 +18,35 @@ msgstr ""
 "X-Generator: Poedit 1.8.5\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: extension/nautilus-admin.py:122
+#: extension/nautilus-admin.py:110
 msgid "CAUTION!"
 msgstr "ATTENZIONE !"
 
-#: extension/nautilus-admin.py:104
+#: extension/nautilus-admin.py:92
 msgid "Edit as A_dministrator"
 msgstr "Editare come A_mministratore"
 
-#: extension/nautilus-admin.py:88
+#: extension/nautilus-admin.py:84
 msgid "Open as A_dministrator"
 msgstr "Aprire come A_mministratore"
 
-#: extension/nautilus-admin.py:105
+#: extension/nautilus-admin.py:93
 msgid "Open this file in the text editor with root privileges"
-msgstr "Aprire questo file nell'editor di testo con privilegi di root"
+msgstr ""
+"Aprire questo file nell'editor di testo con privilegi di root"
 
-#: extension/nautilus-admin.py:89
+#: extension/nautilus-admin.py:85
 msgid "Open this folder with root privileges"
 msgstr "Aprire questa cartella con privilegi di root"
 
-#: extension/nautilus-admin.py:96
-#, fuzzy
-msgid "Run as A_dministrator"
-msgstr "Aprire come A_mministratore"
-
-#: extension/nautilus-admin.py:97
-#, fuzzy
-msgid "Run this file with root privileges"
-msgstr "Aprire questa cartella con privilegi di root"
-
-#: extension/nautilus-admin.py:123
-#, fuzzy
+#: extension/nautilus-admin.py:111
 msgid ""
-"Running the File Manager, the Text Editor or an executable with "
-"Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
-"system if you are not careful!</b>\n"
-"<b>Think twice</b> before doing so, especially before running untrusted "
-"executables downloaded from the Internet. <b>They can contain malware</b>, "
-"which can do <b>irreversible damage to your system</b> when given "
-"Administrator privileges!\n"
+"Running the File Manager or the Text Editor with Administrator privileges "
+"<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
+"careful!</b>\n"
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
 "Lanciare il File Manager o l'Editor di Testo con privilegi di Amministratore "
-"<b>e' pericoloso</b> ! <b>Tu puoi facilmente distruggere il tuo sistema se "
-"non si è prudenti !\n"
+"<b>e' pericoloso</b> ! <b>Tu puoi facilmente distruggere il tuo sistema "
+"se non si è prudenti !\n"
 "Continuare solamente se tu sai cosa stai facendo e conosci i rischi. "
