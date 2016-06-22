@@ -120,9 +120,13 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 			dialog = Gtk.MessageDialog(self.window, 0, Gtk.MessageType.WARNING,
 			                           Gtk.ButtonsType.OK_CANCEL,
 			                           gettext("CAUTION!"))
-			msg = gettext("Running the File Manager or the Text Editor with Administrator "
-			              "privileges <b>is dangerous</b>! <b>You can easily destroy your "
-			              "system if you are not careful!</b>\n"
+			msg = gettext("Running the File Manager, the Text Editor or an executable with "
+			              "Administrator privileges <b>is dangerous</b>! "
+			              "<b>You can easily destroy your system if you are not careful!</b>\n"
+			              "<b>Think twice</b> before doing so, especially when running "
+			              "untrusted executables downloaded from the Internet. "
+			              "<b>They can contain malware</b>, which can do <b>irreversible "
+			              "damage to your system</b> when given Administrator privileges!\n"
 			              "Proceed only if you know what you are doing and understand the risks.")
 			dialog.format_secondary_markup(msg)
 			response = dialog.run()
