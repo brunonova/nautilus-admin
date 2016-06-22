@@ -123,7 +123,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 			msg = gettext("Running the File Manager, the Text Editor or an executable with "
 			              "Administrator privileges <b>is dangerous</b>! "
 			              "<b>You can easily destroy your system if you are not careful!</b>\n"
-			              "<b>Think twice</b> before doing so, especially when running "
+			              "<b>Think twice</b> before doing so, especially before running "
 			              "untrusted executables downloaded from the Internet. "
 			              "<b>They can contain malware</b>, which can do <b>irreversible "
 			              "damage to your system</b> when given Administrator privileges!\n"
