@@ -1,5 +1,6 @@
 # Nautilus Admin - Extension for Nautilus to do administrative operations
 # Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+#               2016 frmdstryr <frmdstryr@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,14 +15,15 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import os, subprocess
+import os, subprocess, urlparse, traceback
 from gi.repository import Nautilus, GObject, GConf, Gtk, GLib
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
-PKEXEC_PATH="@PKEXEC_PATH@"
-NAUTILUS_PATH="@NAUTILUS_PATH@"
-GEDIT_PATH="@GEDIT_PATH@"
+PKEXEC_PATH="/usr/bin/pkexec"
+NAUTILUS_PATH="/usr/bin/nautilus"
+GEDIT_PATH="/usr/bin/gedit"
+TERMINAL_PATH="/usr/bin/gnome-terminal"
 
 class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 	"""Simple Nautilus extension that adds some administrative (root) actions to
@@ -46,6 +48,8 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 				if os.path.exists(NAUTILUS_PATH):
 					items += [self._create_nautilus_item(file)]
 			else:
+				if os.path.exists(TERMINAL_PATH) and self._is_executable(file):
+					items += [self._create_exec_item(file)]
 				if os.path.exists(GEDIT_PATH):
 					items += [self._create_gedit_item(file)]
 
@@ -84,6 +88,14 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		                         label=gettext("Open as A_dministrator"),
 		                         tip=gettext("Open this folder with root privileges"))
 		item.connect("activate", self._nautilus_run, file)
+		return item
+
+	def _create_exec_item(self, file):
+		"""Creates the 'Edit as Administrator' menu item."""
+		item = Nautilus.MenuItem(name="NautilusAdmin::ExecAdmin",
+		                         label=gettext("Run as A_dministrator"),
+		                         tip=gettext("Run this file with root privileges"))
+		item.connect("activate", self._exec_run, file)
 		return item
 
 	def _create_gedit_item(self, file):
@@ -134,6 +146,34 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		if self._show_warning_dialog():
 			uri = file.get_uri()
 			subprocess.Popen([PKEXEC_PATH, NAUTILUS_PATH, "--no-desktop", uri])
+
+	def _is_executable(self, file):
+		try:		
+			uri = file.get_uri()
+			p = urlparse.urlparse(uri)
+			path = os.path.abspath(os.path.join(p.netloc, p.path))
+			return os.access(path,os.X_OK)
+		except:
+			return False
+
+	def _exec_run(self, menu, file, gui=True):
+		"""'Run as Administrator' menu item callback."""
+		if self._show_warning_dialog():
+			try:
+				uri = file.get_uri()
+				p = urlparse.urlparse(uri)
+				path = os.path.abspath(os.path.join(p.netloc, p.path))
+				#is_app = not os.path.splitext(path)[-1]
+				cmd = [PKEXEC_PATH]
+				#cmd +=['env','DISPLAY='+os.environ['DISPLAY'],'XAUTHORITY='+os.environ['XAUTHORITY']]
+				
+				cmd +=[TERMINAL_PATH]
+				cmd +=['--working-directory='+os.path.dirname(path)]
+				cmd +=['-e',path]
+
+				subprocess.Popen(cmd)
+			except:
+				traceback.print_exc()
 
 	def _gedit_run(self, menu, file):
 		"""'Edit as Administrator' menu item callback."""
