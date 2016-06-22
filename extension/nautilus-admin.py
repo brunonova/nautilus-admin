@@ -1,5 +1,6 @@
 # Nautilus Admin - Extension for Nautilus to do administrative operations
 # Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+#               2016 frmdstryr <frmdstryr@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -47,7 +48,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 				if os.path.exists(NAUTILUS_PATH):
 					items += [self._create_nautilus_item(file)]
 			else:
-				if self._is_executable(file):
+				if os.path.exists(TERMINAL_PATH) and self._is_executable(file):
 					items += [self._create_exec_item(file)]
 				if os.path.exists(GEDIT_PATH):
 					items += [self._create_gedit_item(file)]
