@@ -1,42 +1,40 @@
-# Arabic translations for nautilus-admin package.
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Spanish translation for nautilus-admin package
+# Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com>
 # This file is distributed under the same license as the nautilus-admin package.
-# Abdelkarim Guettaf <gkraim@gmail.com>, 2015.
+# David López <david.lopez@upct.es>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.1.5\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
 "POT-Creation-Date: 2015-12-08 13:11+0000\n"
-"PO-Revision-Date: 2015-09-26 17:37+0100\n"
-"Last-Translator: Guattaf Abdelkarim <gkraim@gmail.com>\n"
-"Language-Team: Arabic <wahaproject@gmail.com>\n"
-"Language: ar\n"
+"PO-Revision-Date: 2016-03-29 10:46+0100\n"
+"Last-Translator: David López <david.lopez@upct.es>\n"
+"Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: extension/nautilus-admin.py:110
 msgid "CAUTION!"
-msgstr "تنبيه!"
+msgstr "¡ADVERTENCIA!"
 
 #: extension/nautilus-admin.py:92
 msgid "Edit as A_dministrator"
-msgstr "_عدِّل كمدير"
+msgstr "Editar como A_dministrador"
 
 #: extension/nautilus-admin.py:84
 msgid "Open as A_dministrator"
-msgstr "افتح ك_مدير"
+msgstr "Abrir como A_dministrador"
 
 #: extension/nautilus-admin.py:93
 msgid "Open this file in the text editor with root privileges"
-msgstr "افتح هذا الملف بإستخدام محرر النصوص بصلاحية الجذر"
+msgstr "Editar este archivo con privilegios de administrador"
 
 #: extension/nautilus-admin.py:85
 msgid "Open this folder with root privileges"
-msgstr "افتح هذا المجلد بصلاحية ال_جذر"
+msgstr "Abrir esta carpeta con privilegios de administrador"
 
 #: extension/nautilus-admin.py:111
 msgid ""
@@ -44,7 +42,6 @@ msgid ""
 "<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
 "careful!</b>\n"
 "Proceed only if you know what you are doing and understand the risks."
-msgstr ""
-"تشغيل مدير الملفات أو محرّر النصوص بصلاحية الجذر  <b>خطير</b>! <b>بإمكانك "
-"تحطيم نظامك بسهولة إذا لم تكن حذرا!</b>\n"
-"أكمل فقط إذا كنت تعرف ماذا تفعل ومتفهم للمخاطر المحتملة."
+msgstr "Usar con privilegios de administrador el Gestor de Archivos o el Editor de Texto "
+"<b>es peligroso.</b> <b>Podría destruir su sistema si no actúa con cuidado.</b>\n"
+"Úselo solo si sabe lo que está haciendo y comprende los riesgos."

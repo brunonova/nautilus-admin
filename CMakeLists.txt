@@ -6,6 +6,7 @@ find_package(Gettext REQUIRED)
 set(PKEXEC_PATH "/usr/bin/pkexec" CACHE FILEPATH "pkexec program path.")
 set(NAUTILUS_PATH "/usr/bin/nautilus" CACHE FILEPATH "nautilus program path.")
 set(GEDIT_PATH "/usr/bin/gedit" CACHE FILEPATH "gedit program path.")
+set(TERMINAL_PATH "/usr/bin/gnome-terminal" CACHE FILEPATH "gnome-terminal program path.")
 
 # Configure files
 configure_file(extension/nautilus-admin.py
@@ -14,8 +15,8 @@ configure_file(polkit/org.freedesktop.nautilus-admin.policy
                polkit/org.freedesktop.nautilus-admin.policy)
 
 # Update and compile the translations
-gettext_create_translations(po/nautilus-admin.pot ALL po/ar.po po/fr.po po/pt.po
-                                                      po/ru.po)
+gettext_create_translations(po/nautilus-admin.pot ALL po/ar.po po/es.po po/fr.po
+                                                      po/pt.po po/ru.po po/it.po)
 
 # Install target
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/polkit/org.freedesktop.nautilus-admin.policy"

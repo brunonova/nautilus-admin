@@ -20,8 +20,6 @@ folder.
 
 You can send the translation through a pull request or through
 the [issue tracker][issues].
-You can also translate the extension online on [Launchpad][lp_translate].
-The XML file can't be translated there, though.
 
 
 ## Coding
@@ -37,4 +35,3 @@ If you add any translatable string to the extension, please run the
 
 
 [issues]: https://github.com/brunonova/nautilus-admin/issues
-[lp_translate]: https://translations.launchpad.net/nautilusadmin
