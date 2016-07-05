@@ -15,8 +15,14 @@ configure_file(polkit/org.freedesktop.nautilus-admin.policy
                polkit/org.freedesktop.nautilus-admin.policy)
 
 # Update and compile the translations
-gettext_create_translations(po/nautilus-admin.pot ALL po/ar.po po/es.po po/fr.po
-                                                      po/pt.po po/ru.po po/it.po)
+gettext_create_translations(po/nautilus-admin.pot ALL
+	po/ar.po
+	po/es.po
+	po/fr.po
+	po/it.po
+	po/lt.po
+	po/pt.po
+	po/ru.po)
 
 # Install target
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/polkit/org.freedesktop.nautilus-admin.policy"
