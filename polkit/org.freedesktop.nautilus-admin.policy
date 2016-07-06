@@ -62,10 +62,12 @@
 	
 	<action id="org.freedesktop.pkexec.gnometerminal">
         <description>Run as Root</description>
+	<description xml:lang="it">Eseguire come Root</description>
         <description xml:lang="pt">Executar como Root</description>
 	<description xml:lang="ru">Запустить как Администратор</description>
 	<description xml:lang="lt">Vykdyti Administratoriaus teisėmis</description>
         <message>Authentication is required to run as Administrator</message>
+	<message xml:lang="it">Autenticazione necessaria per eseguire come Amministratore</message>
         <message xml:lang="pt">Autenticação é necessária para executar como Administrador</message>
 	<message xml:lang="ru">Для запуска исполняемых файлов от имени Администратора требуется аутентификация</message>
 	<message xml:lang="lt">Vykdomųjų failų paleidimui Administratoriaus teisėmis reikia įvesti slaptažodį</message>

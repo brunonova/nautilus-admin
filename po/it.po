@@ -40,11 +40,11 @@ msgstr "Aprire questa cartella con privilegi di root"
 
 #: extension/nautilus-admin.py:96
 msgid "Run as A_dministrator"
-msgstr "Aprire come A_mministratore"
+msgstr "Eseguire come A_mministratore"
 
 #: extension/nautilus-admin.py:97
 msgid "Run this file with root privileges"
-msgstr "Aprire questa cartella con privilegi di root"
+msgstr "Aprire questo file con privilegi di root"
 
 #: extension/nautilus-admin.py:123
 msgid ""
@@ -57,11 +57,11 @@ msgid ""
 "Administrator privileges!\n"
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
-"Lanciare il File Manager o l'Editor di Testo con privilegi di Amministratore "
+"Lanciare il File Manager, l'Editor di Testo o un eseguibile con privilegi di Amministratore "
 "<b>e' pericoloso</b> ! <b>Tu puoi facilmente distruggere il tuo sistema se "
-"non si è prudenti !\n"
-"<b>Rifletti</b>prima di eseguire, specialmente prima di lanciare eseguibili non "
-"verificati scaricati da Internet. <b>Potrebbero contenere malware</b>, "
+"non sei prudente !\n"
+"<b>Rifletti</b> prima di eseguire, specialmente prima di lanciare eseguibili non "
+"verificati e scaricati da Internet. <b>Potrebbero contenere malware</b>, "
 "che potrebbero <b>provocare danni irreversibili al sistema</b> se lanciati con "
 "privilegi di Amministratore!\n" 
 "Continuare solamente se tu sai cosa stai facendo e conosci i rischi. "
