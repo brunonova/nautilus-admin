@@ -66,11 +66,13 @@
         <description xml:lang="pt">Executar como Root</description>
 	<description xml:lang="ru">Запустить как Администратор</description>
 	<description xml:lang="lt">Vykdyti Administratoriaus teisėmis</description>
+	<description xml:lang="fr">Exécuter en tant qu'administrateur</description>
         <message>Authentication is required to run as Administrator</message>
 	<message xml:lang="it">Autenticazione necessaria per eseguire come Amministratore</message>
         <message xml:lang="pt">Autenticação é necessária para executar como Administrador</message>
 	<message xml:lang="ru">Для запуска исполняемых файлов от имени Администратора требуется аутентификация</message>
 	<message xml:lang="lt">Vykdomųjų failų paleidimui Administratoriaus teisėmis reikia įvesti slaptažodį</message>
+	<description xml:lang="fr">L'authentification est requise pour exécuter en tant qu'administrateur</description>
         <icon_name>utilities-terminal</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
