@@ -21,6 +21,7 @@ gettext_create_translations(po/nautilus-admin.pot ALL
 	po/fr.po
 	po/it.po
 	po/lt.po
+	po/pl.po
 	po/pt.po
 	po/ru.po)
 
