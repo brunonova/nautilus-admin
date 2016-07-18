@@ -37,17 +37,14 @@ msgid "Open this folder with root privileges"
 msgstr "Otwórz ten folder z prawami roota"
 
 #: extension/nautilus-admin.py:96
-#, fuzzy
 msgid "Run as A_dministrator"
 msgstr "Uruchom jako Administrator"
 
 #: extension/nautilus-admin.py:97
-#, fuzzy
 msgid "Run this file with root privileges"
 msgstr "Uruchom ten plik z prawami roota"
 
 #: extension/nautilus-admin.py:123
-#, fuzzy
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "
 "Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
