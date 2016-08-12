@@ -23,7 +23,8 @@ gettext_create_translations(po/nautilus-admin.pot ALL
 	po/lt.po
 	po/pl.po
 	po/pt.po
-	po/ru.po)
+	po/ru.po
+	po/sk.po)
 
 # Install target
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/polkit/org.freedesktop.nautilus-admin.policy"
