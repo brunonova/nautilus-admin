@@ -39,17 +39,14 @@ msgid "Open this folder with root privileges"
 msgstr "افتح هذا المجلد بصلاحية ال_جذر"
 
 #: extension/nautilus-admin.py:96
-#, fuzzy
 msgid "Run as A_dministrator"
-msgstr "افتح ك_مدير"
+msgstr "شغِّل ك_مدير"
 
 #: extension/nautilus-admin.py:97
-#, fuzzy
 msgid "Run this file with root privileges"
-msgstr "افتح هذا المجلد بصلاحية ال_جذر"
+msgstr "شغِّل هذا الملف بصلاحية ال_جذر"
 
 #: extension/nautilus-admin.py:123
-#, fuzzy
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "
 "Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
@@ -60,6 +57,9 @@ msgid ""
 "Administrator privileges!\n"
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
-"تشغيل مدير الملفات أو محرّر النصوص بصلاحية الجذر  <b>خطير</b>! <b>بإمكانك "
-"تحطيم نظامك بسهولة إذا لم تكن حذرا!</b>\n"
-"أكمل فقط إذا كنت تعرف ماذا تفعل ومتفهم للمخاطر المحتملة."
+"تشغيل مدير الملفات أو محرّر النصوص بصلاحيات الجذر <b>خطير</b>! "
+"<b>بإمكانك تحطيم نظامك بسهولة إذا لم تكن حذرا!</b>\n"
+"<b>فكر جيدا</b> قبل القيام بذلك، خصوصا قبل تشغيل الملفات التنفيذية غير الموثوقة والمحمّلة من الإنترنت. "
+"<b>يمكن أن تحتوي على برمجيات ضارة</b>، والتي يمكن أن تقوم "
+"<b>بأضرار غير قابلة للإصلاح للنظام الخاص بك</b> عندما تُعطى امتيازات المدير!\n"
+"أكمل فقط إذا كنت تعرف ماذا تفعل ومتفهما لهذه المخاطر."

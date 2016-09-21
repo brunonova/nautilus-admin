@@ -8,8 +8,8 @@
 
 	<action id="org.freedesktop.pkexec.nautilus">
 		<description>Run Nautilus as Root</description>
-		<description xml:lang="it">Esegui Nautilus come Root</description>
 		<description xml:lang="ar">شغّل نوتلس كجذر</description>
+		<description xml:lang="it">Esegui Nautilus come Root</description>
 		<description xml:lang="pt">Executar o Nautilus como Root</description>
 		<description xml:lang="fr">Lancez Nautilus en tant qu'administrateur</description>
 		<description xml:lang="ru">Запустить Nautilus как Администратор</description>
@@ -70,6 +70,7 @@
 	
 	<action id="org.freedesktop.pkexec.gnometerminal">
         <description>Run as Root</description>
+        <description xml:lang="ar">شغّل كجذر</description>
         <description xml:lang="fr">Exécuter en tant qu'administrateur</description>
 	<description xml:lang="it">Eseguire come Root</description>
         <description xml:lang="pt">Executar como Root</description>
@@ -78,6 +79,7 @@
 	<description xml:lang="pl">Uruchom jako Root</description>
 	<description xml:lang="sk">Spustenie ako správca</description>
         <message>Authentication is required to run as Administrator</message>
+        <message xml:lang="ar">المصادقة مطلوبة للتشغيل كمدير</message>
         <message xml:lang="fr">L'authentification est requise pour exécuter en tant qu'administrateur</message>
 	<message xml:lang="it">Autenticazione necessaria per eseguire come Amministratore</message>
         <message xml:lang="pt">Autenticação é necessária para executar como Administrador</message>
