@@ -1,3 +1,10 @@
+v?.?.?
+------
+
+* Removed unused gconf dependency (thanks Jeremy Bicha)
+* Updated Arabic translation (thanks Abdelkarim Guettaf)
+
+
 v0.2.2
 ------
 
