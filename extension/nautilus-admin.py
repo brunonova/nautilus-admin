@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os, subprocess, urlparse, traceback
-from gi.repository import Nautilus, GObject, GConf, Gtk, GLib
+from gi.repository import Nautilus, GObject, Gtk, GLib
 from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
