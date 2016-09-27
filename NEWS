@@ -2,6 +2,7 @@ v?.?.?
 ------
 
 * Removed unused gconf dependency (thanks Jeremy Bicha)
+* Added German translation (thanks Rainer Peichl)
 * Updated Arabic translation (thanks Abdelkarim Guettaf)
 
 

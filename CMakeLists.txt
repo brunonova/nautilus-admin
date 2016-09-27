@@ -17,6 +17,7 @@ configure_file(polkit/org.freedesktop.nautilus-admin.policy
 # Update and compile the translations
 gettext_create_translations(po/nautilus-admin.pot ALL
 	po/ar.po
+	po/de.po
 	po/es.po
 	po/fr.po
 	po/it.po
