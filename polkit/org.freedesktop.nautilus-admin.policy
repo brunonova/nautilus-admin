@@ -17,6 +17,7 @@
 		<description xml:lang="es">Ejecutar Nautilus como administrador</description>
 		<description xml:lang="pl">Uruchom Nautilus jako Root</description>
 		<description xml:lang="sk">Spustenie programu Nautilus ako správca</description>
+		<description xml:lang="de">Nautilus als Aministrator ausführen</description>
 		<message>Authentication is required to run the File Manager as Administrator</message>
 		<message xml:lang="ar">المصادقة مطلوبة لتشغيل مدير الملفات كمدير</message>
 		<message xml:lang="it">Autenticazione richiesta per lanciare il File Manager come Amministratore</message>
@@ -27,6 +28,7 @@
 		<message xml:lang="es">Se necesita autentificación para ejecutar el Gestor de Ficheros como Administrador</message>
 		<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić Menedżer Plików jako Administrator</message>
 		<message xml:lang="sk">Na spustenie správcu súborov ako administrátor sa vyžaduje overenie totožnosti</message>
+		<message xml:lang="de">Authentifizierung ist erforderlich um den Datei-Manager als Administrator auszuführen</message>
 		<icon_name>system-file-manager</icon_name>
 		<defaults>
 			<allow_any>auth_admin</allow_any>
@@ -48,6 +50,7 @@
 		<description xml:lang="es">Abrir Gedit como Administrador</description>
 		<description xml:lang="pl">Otwórz Gedit jako Root</description>
 		<description xml:lang="sk">Otvorenie programu Gedit ako správca</description>
+		<description xml:lang="de">Öffne Gedit als Administrator</description>
 		<message>Authentication is required to run the Text Editor as Administrator</message>
 		<message xml:lang="ar">المصادقة مطلوبة لتشغيل محرر النصوص كمدير</message>
 		<message xml:lang="pt">Autenticação é necessária para executar o Editor de Texto como Administrador</message>
@@ -58,6 +61,7 @@
 		<message xml:lang="es">Se necesita autentificación para abrir el Editor de Texto como Administrador</message>
 		<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić Edytor tekstowy jako Administrator</message>
 		<message xml:lang="sk">Na spustenie textového editora ako administrátor sa vyžaduje overenie totožnosti</message>
+		<message xml:lang="de">Authentifizierung ist erforderlich um den Text-Editor als Administrator auszuführen</message>
 		<icon_name>accessories-text-editor</icon_name>
 		<defaults>
 			<allow_any>auth_admin</allow_any>
@@ -78,6 +82,7 @@
 	<description xml:lang="lt">Vykdyti Administratoriaus teisėmis</description>
 	<description xml:lang="pl">Uruchom jako Root</description>
 	<description xml:lang="sk">Spustenie ako správca</description>
+	<description xml:lang="de">Als Administrator ausführen</description>
         <message>Authentication is required to run as Administrator</message>
         <message xml:lang="ar">المصادقة مطلوبة للتشغيل كمدير</message>
         <message xml:lang="fr">L'authentification est requise pour exécuter en tant qu'administrateur</message>
@@ -87,6 +92,7 @@
 	<message xml:lang="lt">Vykdomųjų failų paleidimui Administratoriaus teisėmis reikia įvesti slaptažodį</message>
 	<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić jako Administrator</message>
 	<message xml:lang="sk">Na spustenie ako administrátor sa vyžaduje overenie totožnosti</message>
+	<message xml:lang="de">Authentifizierung ist erforderlich zum ausführen als Administrator</message>
         <icon_name>utilities-terminal</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
