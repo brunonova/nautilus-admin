@@ -1,4 +1,4 @@
-v?.?.?
+v0.2.3
 ------
 
 * Removed unused gconf dependency (thanks Jeremy Bicha)
