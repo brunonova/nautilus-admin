@@ -29,6 +29,7 @@
 		<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić Menedżer Plików jako Administrator</message>
 		<message xml:lang="sk">Na spustenie správcu súborov ako administrátor sa vyžaduje overenie totožnosti</message>
 		<message xml:lang="de">Authentifizierung ist erforderlich um den Datei-Manager als Administrator auszuführen</message>
+		<message xml:lang="zh_CN">以超级用户身份运行 Nautilus</message>
 		<icon_name>system-file-manager</icon_name>
 		<defaults>
 			<allow_any>auth_admin</allow_any>
@@ -62,6 +63,7 @@
 		<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić Edytor tekstowy jako Administrator</message>
 		<message xml:lang="sk">Na spustenie textového editora ako administrátor sa vyžaduje overenie totožnosti</message>
 		<message xml:lang="de">Authentifizierung ist erforderlich um den Text-Editor als Administrator auszuführen</message>
+		<message xml:lang="zh_CN">以超级用户身份打开 Gedit</message>
 		<icon_name>accessories-text-editor</icon_name>
 		<defaults>
 			<allow_any>auth_admin</allow_any>
@@ -93,6 +95,7 @@
 	<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić jako Administrator</message>
 	<message xml:lang="sk">Na spustenie ako administrátor sa vyžaduje overenie totožnosti</message>
 	<message xml:lang="de">Authentifizierung ist erforderlich zum ausführen als Administrator</message>
+	<message xml:lang="zh_CN">以超级用户身份运行</message>
         <icon_name>utilities-terminal</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
