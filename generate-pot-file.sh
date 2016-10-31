@@ -4,7 +4,7 @@ FILEPATH="$(readlink -f "$0")"
 DIR="$(dirname "$FILEPATH")"
 cd "$DIR"
 xgettext --package-name=nautilus-admin \
-         --package-version=0.2.3 \
+         --package-version=0.2.4 \
          --copyright-holder='Bruno Nova <brunomb.nova@gmail.com>' \
          --msgid-bugs-address='https://github.com/brunonova/nautilus-admin/issues' \
          -cTRANSLATORS \
