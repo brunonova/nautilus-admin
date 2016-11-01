@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com> -->
+<component type="addon">
+    <id>nautilus-admin</id>
+    <extends>org.gnome.Nautilus.desktop</extends>
+    <metadata_license>GPL-3.0+</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <name>Nautilus Admin</name>
+    <summary>Extension for Nautilus to do administrative operations</summary>
+    <summary xml:lang="pt">Extensão para o Nautilus para realizar operações administrativas</summary>
+    <description>
+        <p>
+            Nautilus Admin is a simple Python extension for the Nautilus file
+            manager that adds some administrative actions to the right-click
+            menu:
+        </p>
+        <p xml:lang="pt">
+            O Nautilus Admin é uma extensão em Python simples para o gestor de
+            ficheiros Nautilus que adiciona algumas acções administrativas ao
+            menu de contexto:
+        </p>
+        <ul>
+            <li>
+                Open as Administrator: opens a folder in a new Nautilus window
+                running with administrator (root) privileges.
+            </li>
+            <li>
+                Edit as Administrator: opens a file in a Gedit window running
+                with administrator (root) privileges.
+            </li>
+            <li>
+                Run as Administrator: runs an executable file with administrator
+                (root) privileges inside a GNOME Terminal.
+            </li>
+        </ul>
+        <ul xml:lang="pt">
+            <li>
+                Abrir como Administrador: abre uma pasta numa nova janela do
+                Nautilus a correr com privilégios de administrador (root).
+            </li>
+            <li>
+                Editar como Administrador: abre um ficheiro numa janela do Gedit
+                a correr com privilégios de administrador (root).
+            </li>
+            <li>
+                Executar como Administrador: corre um ficheiro executável com
+                privilégios de administrador (root) dentro de um Terminal do
+                GNOME.
+            </li>
+        </ul>
+    </description>
+    <url type="homepage">http://brunonova.github.io/nautilus-admin/</url>
+    <url type="bugtracker">http://brunonova.github.io/nautilus-admin/issues/</url>
+    <developer_name>Bruno Nova</developer_name>
+    <update_contact>brunomb.nova@gmail.com</update_contact>
+    <releases>
+        <release version="0.2.4" date="2016-10-31" urgency="low">
+            <description>
+                <ul>
+                    <li>
+                        Added Simplified Chinese translation (thanks
+                        Boyuan Yang).
+                    </li>
+                </ul>
+            </description>
+        </release>
+    </releases>
+</component>
