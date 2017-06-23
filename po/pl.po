@@ -22,11 +22,11 @@ msgstr "UWAGA!"
 
 #: extension/nautilus-admin.py:104
 msgid "Edit as A_dministrator"
-msgstr "Edytuj jako Administrator"
+msgstr "Edytuj jako administrator"
 
 #: extension/nautilus-admin.py:88
 msgid "Open as A_dministrator"
-msgstr "Otwórz jako Administrator"
+msgstr "Otwórz jako administrator"
 
 #: extension/nautilus-admin.py:105
 msgid "Open this file in the text editor with root privileges"
@@ -38,7 +38,7 @@ msgstr "Otwórz ten folder z prawami roota"
 
 #: extension/nautilus-admin.py:96
 msgid "Run as A_dministrator"
-msgstr "Uruchom jako Administrator"
+msgstr "Uruchom jako administrator"
 
 #: extension/nautilus-admin.py:97
 msgid "Run this file with root privileges"
@@ -56,7 +56,7 @@ msgid ""
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
 "Uruchomienie menedżera plików, edytora tekstowego lub uruchomienie pliku z "
-"prawami Administratora <b>jest niebezpieczne</b>! <b>Możesz w łatwy sposób zniszczyć "
+"prawami administratora <b>jest niebezpieczne</b>! <b>Możesz w łatwy sposób zniszczyć "
 "system operacyjny, jeżeli nie zachowasz ostrożności!</b>\n"
 "<b>Zastanów się dwa razy</b> zanim wykonasz jakąkolwiek czynność, a przede wszystkim "
 "uruchamiając niezaufane pliki pobrane z internetu. <b>Mogą one zawierać malware</b>, "
