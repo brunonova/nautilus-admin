@@ -1,3 +1,11 @@
+v0.2.5
+------
+
+* Fix markup parsing errors in the Italian, French and German translations
+  (thanks ronnystandtke)
+* Update Polish translation (thanks MartinPL)
+
+
 v0.2.4
 ------
 
