@@ -149,7 +149,10 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		"""'Open as Administrator' menu item callback."""
 		if self._show_warning_dialog():
 			uri = file.get_uri()
-			subprocess.Popen([PKEXEC_PATH, NAUTILUS_PATH, "--no-desktop", uri])
+			cmd =  [PKEXEC_PATH]
+			cmd += ["env", "XDG_RUNTIME_DIR=" + os.environ["XDG_RUNTIME_DIR"]]
+			cmd += [NAUTILUS_PATH, "--no-desktop", uri]
+			subprocess.Popen(cmd)
 
 	def _is_executable(self, file):
 		"""Returns whether the current user can execute the given file."""
@@ -172,6 +175,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 				cmd = [PKEXEC_PATH]
 				#cmd +=['env','DISPLAY='+os.environ['DISPLAY'],'XAUTHORITY='+os.environ['XAUTHORITY']]
 				
+				cmd +=["env", "XDG_RUNTIME_DIR=" + os.environ["XDG_RUNTIME_DIR"]]
 				cmd +=[TERMINAL_PATH]
 				cmd +=['--working-directory='+os.path.dirname(path)]
 				cmd +=['-e',path]
@@ -185,3 +189,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		if self._show_warning_dialog():
 			uri = file.get_uri()
 			subprocess.Popen([PKEXEC_PATH, GEDIT_PATH, uri])
+			cmd =  [PKEXEC_PATH]
+			cmd += ["env", "XDG_RUNTIME_DIR=" + os.environ["XDG_RUNTIME_DIR"]]
+			cmd += [GEDIT_PATH, uri]
+			subprocess.Popen(cmd)
