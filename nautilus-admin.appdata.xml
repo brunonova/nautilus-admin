@@ -28,10 +28,6 @@
                 Edit as Administrator: opens a file in a Gedit window running
                 with administrator (root) privileges.
             </li>
-            <li>
-                Run as Administrator: runs an executable file with administrator
-                (root) privileges inside a GNOME Terminal.
-            </li>
         </ul>
         <ul xml:lang="pt">
             <li>
@@ -41,11 +37,6 @@
             <li>
                 Editar como Administrador: abre um ficheiro numa janela do Gedit
                 a correr com privilégios de administrador (root).
-            </li>
-            <li>
-                Executar como Administrador: corre um ficheiro executável com
-                privilégios de administrador (root) dentro de um Terminal do
-                GNOME.
             </li>
         </ul>
     </description>
