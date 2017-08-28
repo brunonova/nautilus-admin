@@ -1,3 +1,17 @@
+v1.0.0
+------
+
+This release is a major change from the previous version.
+This new version requires gvfs 1.30 or newer (generally included in
+GNOME 3.22 distributions)!
+If that requirement is not met, please use the previous version (0.2.5).
+
+* Use GNOME's new admin backend, instead of policy kit, which works in Wayland,
+  fixing #27 and #29
+* Removed the "Run as Administrator" option, as it won't work with the
+  admin backend
+
+
 v0.2.5
 ------
 
