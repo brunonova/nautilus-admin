@@ -1,3 +1,10 @@
+v1.1.0
+------
+
+* Removed the dialog that warned about root privileges, as it no longer
+  makes sense
+
+
 v1.0.0
 ------
 

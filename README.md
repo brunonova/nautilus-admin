@@ -12,16 +12,6 @@ adds some administrative actions to the right-click menu:
     administrator (root) privileges.
 
 
-## WARNING!
-
-Running the File Manager or the Text Editor with Administrator
-privileges **is dangerous**!
-**You can easily destroy your system if you are not careful!**
-**Think twice** before doing so!
-
-You will be warned the first time you use one of the actions above.
-
-
 ## Download
 
 You can download the latest version of the extension from the
