@@ -1,14 +1,14 @@
 # Portuguese translations for nautilus-admin package.
-# Copyright (C) 2015-2016 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015-2017 Bruno Nova <brunomb.nova@gmail.com>
 # This file is distributed under the same license as the nautilus-admin package.
-# Bruno Nova <brunomb.nova@gmail.com>, 2015-2016.
+# Bruno Nova <brunomb.nova@gmail.com>, 2015-2017.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-admin 1.0.0\n"
+"Project-Id-Version: nautilus-admin 1.1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
-"POT-Creation-Date: 2017-08-28 21:03+0100\n"
-"PO-Revision-Date: 2017-08-28 21:05+0100\n"
+"POT-Creation-Date: 2017-09-11 20:53+0100\n"
+"PO-Revision-Date: 2017-09-11 20:54+0100\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt\n"
@@ -17,36 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension/nautilus-admin.py:111
-msgid "CAUTION!"
-msgstr "CUIDADO!"
-
-#: extension/nautilus-admin.py:93
+#: extension/nautilus-admin.py:92
 msgid "Edit as A_dministrator"
 msgstr "Editar como A_dministrador"
 
-#: extension/nautilus-admin.py:85
+#: extension/nautilus-admin.py:84
 msgid "Open as A_dministrator"
 msgstr "Abrir como A_dministrador"
 
-#: extension/nautilus-admin.py:94
+#: extension/nautilus-admin.py:93
 msgid "Open this file in the text editor with root privileges"
 msgstr "Abrir este ficheiro no editor de texto com privilégios de root"
 
-#: extension/nautilus-admin.py:86
+#: extension/nautilus-admin.py:85
 msgid "Open this folder with root privileges"
 msgstr "Abrir esta pasta com privilégios de root"
-
-#: extension/nautilus-admin.py:112
-msgid ""
-"Running the File Manager or the Text Editor with Administrator privileges "
-"<b>is dangerous</b>! <b>You can easily destroy your system if you are not "
-"careful!</b>\n"
-"<b>Think twice</b> before doing so!\n"
-"Proceed only if you know what you are doing and understand the risks."
-msgstr ""
-"Executar o Gestor de Ficheiros ou o Editor de Texto com "
-"privilégios de Administrador <b>é perigoso</b>! <b>Pode destruir o seu "
-"sistema facilmente se não tiver cuidado!</b>\n"
-"<b>Pense duas vezes</b> antes de o fazer!\n"
-"Prossiga apenas se souber o que está a fazer e entender os riscos."
