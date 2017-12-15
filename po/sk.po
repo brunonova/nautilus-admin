@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-admin 0.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
-"POT-Creation-Date: 2017-09-11 20:53+0100\n"
-"PO-Revision-Date: 2017-10-19 06:58+0200\n"
+"POT-Creation-Date: 2017-12-15 07:25+0100\n"
+"PO-Revision-Date: 2017-12-15 07:26+0100\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: \n"
 "Language: sk\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: extension/nautilus-admin.py:92
 msgid "Edit as A_dministrator"
-msgstr "Upraviť ako a_dministrátor"
+msgstr "Upraviť ako s_právca"
 
 #: extension/nautilus-admin.py:84
 msgid "Open as A_dministrator"
-msgstr "Otvoriť ako a_dministrátor"
+msgstr "Otvoriť ako s_právca"
 
 # tooltip
 #: extension/nautilus-admin.py:93
