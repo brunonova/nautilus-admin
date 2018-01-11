@@ -16,6 +16,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import os, subprocess
+
+from gi import require_version
+require_version('Gtk', '3.0')
+require_version('Nautilus', '3.0')
+
 from gi.repository import Nautilus, GObject
 from gettext import gettext, locale, bindtextdomain, textdomain
 
