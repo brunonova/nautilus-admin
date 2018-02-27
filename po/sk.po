@@ -1,0 +1,37 @@
+# Slovakian translations for nautilus-admin package.
+# Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com>
+# This file is distributed under the same license as the nautilus-admin package.
+# Dušan Kazik <prescott66@gmail.com>, 2016, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-admin 0.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
+"POT-Creation-Date: 2017-12-15 07:25+0100\n"
+"PO-Revision-Date: 2017-12-15 07:26+0100\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: extension/nautilus-admin.py:92
+msgid "Edit as A_dministrator"
+msgstr "Upraviť ako s_právca"
+
+#: extension/nautilus-admin.py:84
+msgid "Open as A_dministrator"
+msgstr "Otvoriť ako s_právca"
+
+# tooltip
+#: extension/nautilus-admin.py:93
+msgid "Open this file in the text editor with root privileges"
+msgstr "Otvorí tento súbor v textovom editore s právami správcu"
+
+# tooltip
+#: extension/nautilus-admin.py:85
+msgid "Open this folder with root privileges"
+msgstr "Otvorí tento priečinok s právami správcu"

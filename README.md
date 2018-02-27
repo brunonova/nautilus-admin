@@ -10,21 +10,6 @@ adds some administrative actions to the right-click menu:
     with administrator (root) privileges.
 *   **Edit as Administrator**: opens a file in a Gedit window running with
     administrator (root) privileges.
-*   **Run as Administrator**: runs an executable file with administrator (root)
-    privileges inside a GNOME Terminal.
-
-
-## WARNING!
-
-Running the File Manager, the Text Editor or an executable with Administrator
-privileges **is dangerous**!
-**You can easily destroy your system if you are not careful!**
-**Think twice** before doing so, especially before running untrusted executables
-downloaded from the Internet.
-**They can contain malware**, which can do
-**irreversible damage to your system** when given Administrator privileges!
-
-You will be warned the first time you use one of the actions above.
 
 
 ## Download
