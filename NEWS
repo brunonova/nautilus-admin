@@ -1,3 +1,84 @@
+v1.1.3
+------
+
+* Explicitly require Gtk and Nautilus 3.0 (thanks zgwerby)
+
+
+v1.1.2
+------
+
+* Updated Slovakian translation (thanks Dušan Kazik)
+
+v1.1.1
+------
+
+* Updated Slovakian translation (thanks Dušan Kazik)
+  
+
+v1.1.0
+------
+
+* Removed the dialog that warned about root privileges, as it no longer
+  makes sense
+
+
+v1.0.0
+------
+
+This release is a major change from the previous version.
+This new version requires gvfs 1.30 or newer (generally included in
+GNOME 3.22 distributions)!
+If that requirement is not met, please use the previous version (0.2.5).
+
+* Use GNOME's new admin backend, instead of policy kit, which works in Wayland,
+  fixing #27 and #29
+* Removed the "Run as Administrator" option, as it won't work with the
+  admin backend
+
+
+v0.2.5
+------
+
+* Fix markup parsing errors in the Italian, French and German translations
+  (thanks ronnystandtke)
+* Update Polish translation (thanks MartinPL)
+
+
+v0.2.4
+------
+
+* Added Simplified Chinese translation (thanks Boyuan Yang)
+
+
+v0.2.3
+------
+
+* Removed unused gconf dependency (thanks Jeremy Bicha)
+* Added German translation (thanks Rainer Peichl)
+* Updated Arabic translation (thanks Abdelkarim Guettaf)
+
+
+v0.2.2
+------
+
+* Added Slovakian translation (thanks Dušan Kazik)
+* Updated Polish translation (thanks Nolt)
+* Updated French translation (thanks Loïc Escales)
+
+
+v0.2.1
+------
+
+* Added Polish translation (thanks Nolt)
+
+
+v0.2.0
+------
+
+* Added "Run as Administrator" action for executable files (thanks frmdstryr)
+* Added Lithualian translation (thanks Mantas Kriaučiūnas)
+
+
 v0.1.7
 ------
 

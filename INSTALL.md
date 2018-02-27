@@ -7,8 +7,6 @@ Installing Nautilus Admin from source
     *   cmake
     *   gedit *(optional)*
     *   gettext
-    *   gir1.2-gconf-2.0
-    *   policykit-1
     *   python-nautilus
 
 2.  Open a terminal in the project directory and run:
