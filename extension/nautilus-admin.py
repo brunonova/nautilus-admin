@@ -104,7 +104,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		"""'Open as Administrator' menu item callback."""
 		uri = file.get_uri()
 		admin_uri = uri.replace("file://", "admin://")
-		subprocess.Popen([NAUTILUS_PATH, "--no-desktop", admin_uri])
+		subprocess.Popen([NAUTILUS_PATH, admin_uri])
 
 	def _gedit_run(self, menu, file):
 		"""'Edit as Administrator' menu item callback."""
