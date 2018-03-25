@@ -1,7 +1,7 @@
 # Portuguese translations for nautilus-admin package.
-# Copyright (C) 2015-2017 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015-2017 Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
-# Bruno Nova <brunomb.nova@gmail.com>, 2015-2017.
+# Bruno Nova, 2015-2017.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
 "POT-Creation-Date: 2017-09-11 20:53+0100\n"
 "PO-Revision-Date: 2017-09-11 20:54+0100\n"
-"Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
+"Last-Translator: Bruno Nova\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"

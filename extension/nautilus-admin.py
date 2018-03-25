@@ -1,5 +1,5 @@
 # Nautilus Admin - Extension for Nautilus to do administrative operations
-# Copyright (C) 2015-2017 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015-2017 Bruno Nova
 #               2016 frmdstryr <frmdstryr@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -104,7 +104,7 @@ class NautilusAdmin(Nautilus.MenuProvider, GObject.GObject):
 		"""'Open as Administrator' menu item callback."""
 		uri = file.get_uri()
 		admin_uri = uri.replace("file://", "admin://")
-		subprocess.Popen([NAUTILUS_PATH, "--no-desktop", admin_uri])
+		subprocess.Popen([NAUTILUS_PATH, admin_uri])
 
 	def _gedit_run(self, menu, file):
 		"""'Edit as Administrator' menu item callback."""

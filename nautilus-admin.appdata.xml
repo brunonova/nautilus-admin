@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com> -->
+<!-- Copyright (C) 2016 Bruno Nova -->
 <component type="addon">
     <id>nautilus-admin</id>
     <extends>org.gnome.Nautilus.desktop</extends>
@@ -43,5 +43,4 @@
     <url type="homepage">http://brunonova.github.io/nautilus-admin/</url>
     <url type="bugtracker">http://brunonova.github.io/nautilus-admin/issues/</url>
     <developer_name>Bruno Nova</developer_name>
-    <update_contact>brunomb.nova@gmail.com</update_contact>
 </component>

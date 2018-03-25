@@ -1,5 +1,5 @@
 # German translations for nautilus-admin package.
-# Copyright (C) 2015-2016 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015-2016 Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
 # Rainer Peichl <peichl.rainer@gmail.com>, 2016.
 #

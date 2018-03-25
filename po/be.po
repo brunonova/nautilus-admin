@@ -1,5 +1,5 @@
 # Belarusian translations for nautilus-admin package.
-# Copyright (C) YEAR Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) YEAR Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
 # Maksim Krapiŭka <metalomaniax@gmail.com>, 2018.
 #

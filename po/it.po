@@ -1,5 +1,5 @@
 # Italian translations for nautilus-admin package.
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
 # Stefano Capitani <stefano@manjaro.org>, 2016.
 #
@@ -63,5 +63,5 @@ msgstr ""
 "<b>Rifletti</b> prima di eseguire, specialmente prima di lanciare eseguibili non "
 "verificati e scaricati da Internet. <b>Potrebbero contenere malware</b>, "
 "che potrebbero <b>provocare danni irreversibili al sistema</b> se lanciati con "
-"privilegi di Amministratore!\n" 
+"privilegi di Amministratore!\n"
 "Continuare solamente se tu sai cosa stai facendo e conosci i rischi. "

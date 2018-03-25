@@ -1,5 +1,5 @@
 # Simplified Chinese translations for nautilus-admin package.
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
 # Boyuan Yang <073plan@gmail.com>, 2016.
 #

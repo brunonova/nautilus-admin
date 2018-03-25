@@ -1,5 +1,5 @@
 # Polish translation for nautilus-admin package
-# Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2016 Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
 # Nolt <nolt@wizzi.pl>, 2016.
 # MartinPL <martinplr@gmail.com>, 2017.
