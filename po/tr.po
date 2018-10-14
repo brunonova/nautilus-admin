@@ -1,5 +1,5 @@
 # Türkçe çeviri nautilus-admin paket
-# Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2016 Bruno Nova
 # This file is distributed under the same license as the nautilus-admin package.
 # Serdar Sağlam <teknomobil@yandex.com>, 2018.
 #
