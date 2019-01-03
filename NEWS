@@ -1,3 +1,33 @@
+v1.1.8
+------
+
+* Added Turkish translation (thanks Serdar Sağlam)
+
+
+v1.1.7
+------
+
+* Added Czech translation (thanks Pavel Rehak)
+
+
+v1.1.6
+------
+
+* Updated Polish translation (thanks Nolt)
+
+
+v1.1.5
+------
+
+* Don't pass the "--no-desktop" option to Nautilus (fix #40)
+
+
+v1.1.4
+------
+
+* Added Belarusian translation (thanks Maksim Krapiuka)
+
+
 v1.1.3
 ------
 
