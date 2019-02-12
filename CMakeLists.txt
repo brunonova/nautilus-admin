@@ -11,8 +11,13 @@ configure_file(extension/nautilus-admin.py
                extension/nautilus-admin.py)
 
 # Update and compile the translations
-file(GLOB PO_FILES "po/*.po")
-gettext_create_translations(po/nautilus-admin.pot ALL ${PO_FILES})
+file(GLOB TRANSLATION_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "po/*")
+foreach(trans_file ${TRANSLATION_FILES})
+    configure_file(${trans_file} ${trans_file} COPYONLY)
+endforeach()
+file(GLOB PO_FILES "${CMAKE_CURRENT_BINARY_DIR}/po/*.po")
+gettext_create_translations("${CMAKE_CURRENT_BINARY_DIR}/po/nautilus-admin.pot"
+                            ALL ${PO_FILES})
 
 # Install target
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/extension/nautilus-admin.py"
